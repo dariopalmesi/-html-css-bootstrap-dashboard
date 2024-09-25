@@ -20,7 +20,8 @@
         <!-- place navbar here -->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="./img/duck.png" alt="Bootstrap" width="70" height="70"></a>
+                <a class="navbar-brand" href="index.html"><img src="./img/duck.png" alt="Bootstrap" width="70"
+                        height="70"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,69 +54,68 @@
             </h2>
             <form class="row g-3">
                 <div class="col-md-6 col-sm-6">
-                  <label for="inputEmail4" class="form-label">Nome Autore</label>
-                  <input type="email" class="form-control" id="inputEmail4">
+                    <label for="inputEmail4" class="form-label">Nome Autore</label>
+                    <input type="text" class="form-control" id="nameauthor" placeholder="Inserisci nome autore">
                 </div>
                 <div class="col-md-6 col-sm-6">
-                  <label for="inputPassword4" class="form-label">Cognome autore</label>
-                  <input type="password" class="form-control" id="inputPassword4">
+                    <label for="inputPassword4" class="form-label">Cognome autore</label>
+                    <input type="text" class="form-control" id="surnameauthor" placeholder="Inserischi cognome autore">
                 </div>
                 <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <label for="inputAddress" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Inserisci libro">
                 </div>
                 <div class="col-md-4">
-                    <label for="inputState" class="form-label">State</label>
+                    <label for="inputState" class="form-label">Genere</label>
                     <select id="inputState" class="form-select">
-                      <option selected>Choose...</option>
-                      <option>...</option>
+                        <option selected>Scegli il genere</option>
+                        <option>Fantasy</option>
+                        <option>Azione</option>
+                        <option>Drammatico</option>
                     </select>
                 </div>
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                <div class="col-md-4">
+                    <label for="inputCity" class="form-label">Anno di pubblicazione</label>
+                    <input type="text" class="form-control" id="inputyaerpubblication" placeholder="Inserisci l'anno">
                 </div>
-                <div class="col-md-2 mb-4">
-                  <label for="inputZip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="inputZip">
+                <div class="col-md-4 mb-4">
+                    <label for="inputZip" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="Inserisci il codice ISBN#">
                 </div>
                 <hr>
                 <h6>
                     Note
                 </h6>
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Comments</label>
-                  </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2"></label>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Sign in</button>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Disponibile anche in Digitale
+                        </label>
+                    </div>
                 </div>
-              </form>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                </div>
+            </form>
         </div>
     </main>
     <footer>
         <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
-    <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"
-    ></script>
+        crossorigin="anonymous"></script>
 
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"
-    ></script>   
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
